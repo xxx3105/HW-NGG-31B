@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website of Vladyslav Hrynevskyi</title>
+
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-main">
+        <ul class="navbar-position">
+          <li class="navbar-points">
+            <a class="navbar-pages font-navbar font-navbar-size" href="#"
+              >Brand</a
+            >
+          </li>
+          <li class="navbar-points">
+            <!-- Use at least 3 different combinators -->
+            <a class="navbar-pages font-navbar font-navbar-size" href="#"
+              >Home</a
+            >
+          </li>
+          <li class="navbar-points">
+            <a class="navbar-pages font-navbar font-navbar-size" href="#"
+              >About</a
+            >
+          </li>
+          <li class="navbar-points">
+            <a class="navbar-pages font-navbar font-navbar-size" href="#"
+              >Product</a
+            >
+          </li>
+        </ul>
+
+        <form>
+          <input type="text" name="text" class="search" placeholder="Search" />
+
+          <!-- Use at least 3 different combinators -->
+          <input
+            class="ramka font-navbar navbar-color"
+            type="submit"
+            name="submit"
+            class="submit"
+            value="Search"
+          />
+        </form>
+      </div>
+
+      <div class="main-part">
+        <h1 class="name-of-user">Profile of Vladyslav:</h1>
+        <img
+          class="image-of-user"
+          src="./img/img.jpg"
+          alt="bild von Vladyslav"
+          width="200"
+        />
+      </div>
+
+      <div class="personal-information">
+        <h2 id="title-name">Vladyslav Hrynevskyi</h2>
+        <p>Allgemeine Information</p>
+        <ul>
+          <li>Geburtsdatum: 12.04.1989.</li>
+          <li>Familienstand: verheiratet.</li>
+          <li>Arbeitserfahrung: 15 Jahre</li>
+        </ul>
+        <p>Hobbies:</p>
+        <ul>
+          <li>Fahrrad fahren.</li>
+          <li>Zelten.</li>
+          <li>Singen.</li>
+        </ul>
+
+        <p>Lieblingssachen:</p>
+        <ul>
+          <li>Meine Kinder</li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=qUwSYxoRhaM&list=RDMMqUwSYxoRhaM&start_radio=1"
+              >Song: DVRST - REASON TO LIVE.</a
+            >
+          </li>
+          <li>Mein altes Leben.</li>
+        </ul>
+      </div>
+
+      <div class="table-of-events">
+        <table class="table-text-color">
+          <tr>
+            <th>My Job Applications</th>
+          </tr>
+          <tr>
+            <th>Datum:</th>
+            <th>Firma:</th>
+            <th>Arbeitsbeschreibung:</th>
+            <th>Zustand:</th>
+          </tr>
+
+          <tr>
+            <td>12.10.2020</td>
+            <td>Google</td>
+            <td>Data scientist</td>
+            <td>Absage</td>
+          </tr>
+          <tr>
+            <td>22.12.2021</td>
+            <td>Apple</td>
+            <td>Software Engineer II</td>
+            <td>Absage</td>
+          </tr>
+          <tr>
+            <td>18.05.2021</td>
+            <td>Twitter</td>
+            <td>Software Engineer I</td>
+            <td>Absage</td>
+          </tr>
+          <tr>
+            <td>25.10.2022</td>
+            <td>Swisscom</td>
+
+            <td>Software Engineer II</td>
+            <td>Akzeptiert</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="form-style">
+        <form>
+          <ul>
+            <li>
+              <label for="username"> Wählen Sie den Name:</label>
+              <br />
+              <input type="text" name="username" id="username" />
+            </li>
+            <li>
+              <label for="email"> Schreiben Sie bitte Email Adresse:</label>
+              <br />
+              <input type="text" name="email" id="email" />
+            </li>
+            <li>
+              <select class="choose-national" name="user_profile_color_1">
+                <option disabled>Wählen Sie ihr Nationalität:</option>
+                <option value="1">Schweizer</option>
+                <option value="2">Deutscher</option>
+                <option value="3">Ukrainer</option>
+                <option value="4">Türke</option>
+                <option value="5">Russisch</option>
+                <option value="6">Polen</option>
+              </select>
+            </li>
+            <li>
+              <label for="password"> Wählen Sie die Parole:</label>
+              <br />
+              <input type="password" name="password" id="password" />
+            </li>
+          </ul>
+
+          <button class="button-form" type="button">OKAY</button>
+        </form>
+      </div>
+      <!-- 
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/avKyoFETrSg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <embed src="./pdf/Lebenslauf.pdf" width="600" height="400" /> -->
+    </div>
+
+    <!-- <script src="./ggg.js" type="module"></script> -->
+  </body>
+</html>
