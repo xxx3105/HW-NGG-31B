@@ -31,7 +31,7 @@ ul {
   margin: 20px auto 20px auto;
   border-radius: 10px;
   font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .image-of-user {
@@ -47,6 +47,22 @@ ul {
 }
 
 /* PERSONAL INFO */
+
+.PI-button {
+  border-radius: 4px;
+  border-color: black;
+  margin: 0 auto;
+  display: block;
+
+  height: 40px;
+  width: 200px;
+
+  color: white;
+  background-color: black;
+  opacity: 70%;
+
+  margin-bottom: 20px;
+}
 
 .personal-information {
   background-color: aqua;
@@ -95,6 +111,12 @@ div li {
 
 /* FORM */
 
+/* button */
+
+#formVisibility {
+  display: none;
+}
+
 .form-style {
   background-color: blue;
   height: auto;
@@ -138,7 +160,7 @@ div li {
   color: aliceblue;
   text-decoration: none;
   margin: 15px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .navbar-points:hover {
@@ -177,7 +199,7 @@ div li {
 }
 /* 2combination */
 .font-navbar {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* 3combination */

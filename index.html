@@ -59,108 +59,125 @@
         />
       </div>
 
-      <div class="personal-information">
-        <h2 id="title-name">Vladyslav Hrynevskyi</h2>
-        <p>Allgemeine Information</p>
-        <ul>
-          <li>Geburtsdatum: 12.04.1989.</li>
-          <li>Familienstand: verheiratet.</li>
-          <li>Arbeitserfahrung: 15 Jahre</li>
-        </ul>
-        <p>Hobbies:</p>
-        <ul>
-          <li>Fahrrad fahren.</li>
-          <li>Zelten.</li>
-          <li>Singen.</li>
-        </ul>
+      <button class="PI-button" id="knopf" onclick="readMore()">
+        Mehr Information
+      </button>
 
-        <p>Lieblingssachen:</p>
-        <ul>
-          <li>Meine Kinder</li>
-          <li>
-            <a
-              href="https://www.youtube.com/watch?v=qUwSYxoRhaM&list=RDMMqUwSYxoRhaM&start_radio=1"
-              >Song: DVRST - REASON TO LIVE.</a
-            >
-          </li>
-          <li>Mein altes Leben.</li>
-        </ul>
-      </div>
-
-      <div class="table-of-events">
-        <table class="table-text-color">
-          <tr>
-            <th>My Job Applications</th>
-          </tr>
-          <tr>
-            <th>Datum:</th>
-            <th>Firma:</th>
-            <th>Arbeitsbeschreibung:</th>
-            <th>Zustand:</th>
-          </tr>
-
-          <tr>
-            <td>12.10.2020</td>
-            <td>Google</td>
-            <td>Data scientist</td>
-            <td>Absage</td>
-          </tr>
-          <tr>
-            <td>22.12.2021</td>
-            <td>Apple</td>
-            <td>Software Engineer II</td>
-            <td>Absage</td>
-          </tr>
-          <tr>
-            <td>18.05.2021</td>
-            <td>Twitter</td>
-            <td>Software Engineer I</td>
-            <td>Absage</td>
-          </tr>
-          <tr>
-            <td>25.10.2022</td>
-            <td>Swisscom</td>
-
-            <td>Software Engineer II</td>
-            <td>Akzeptiert</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="form-style">
-        <form>
+      <div id="mehr" style="display: none">
+        <div class="personal-information">
+          <h2 id="title-name">Vladyslav Hrynevskyi</h2>
+          <p>Allgemeine Information</p>
           <ul>
-            <li>
-              <label for="username"> Wählen Sie den Name:</label>
-              <br />
-              <input type="text" name="username" id="username" />
-            </li>
-            <li>
-              <label for="email"> Schreiben Sie bitte Email Adresse:</label>
-              <br />
-              <input type="text" name="email" id="email" />
-            </li>
-            <li>
-              <select class="choose-national" name="user_profile_color_1">
-                <option disabled>Wählen Sie ihr Nationalität:</option>
-                <option value="1">Schweizer</option>
-                <option value="2">Deutscher</option>
-                <option value="3">Ukrainer</option>
-                <option value="4">Türke</option>
-                <option value="5">Russisch</option>
-                <option value="6">Polen</option>
-              </select>
-            </li>
-            <li>
-              <label for="password"> Wählen Sie die Parole:</label>
-              <br />
-              <input type="password" name="password" id="password" />
-            </li>
+            <li>Geburtsdatum: 12.04.1989.</li>
+            <li>Familienstand: verheiratet.</li>
+            <li>Arbeitserfahrung: 15 Jahre</li>
+          </ul>
+          <p>Hobbies:</p>
+          <ul>
+            <li>Fahrrad fahren.</li>
+            <li>Zelten.</li>
+            <li>Singen.</li>
           </ul>
 
-          <button class="button-form" type="button">OKAY</button>
-        </form>
+          <p>Lieblingssachen:</p>
+          <ul>
+            <li>Meine Kinder</li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=qUwSYxoRhaM&list=RDMMqUwSYxoRhaM&start_radio=1"
+                >Song: DVRST - REASON TO LIVE.</a
+              >
+            </li>
+            <li>Mein altes Leben.</li>
+          </ul>
+        </div>
       </div>
+
+      <div id="mehr" style="display: none" class="personal-information">
+        <div class="table-of-events">
+          <table class="table-text-color">
+            <tr>
+              <th>My Job Applications</th>
+            </tr>
+            <tr>
+              <th>Datum:</th>
+              <th>Firma:</th>
+              <th>Arbeitsbeschreibung:</th>
+              <th>Zustand:</th>
+            </tr>
+
+            <tr>
+              <td>12.10.2020</td>
+              <td>Google</td>
+              <td>Data scientist</td>
+              <td>Absage</td>
+            </tr>
+            <tr>
+              <td>22.12.2021</td>
+              <td>Apple</td>
+              <td>Software Engineer II</td>
+              <td>Absage</td>
+            </tr>
+            <tr>
+              <td>18.05.2021</td>
+              <td>Twitter</td>
+              <td>Software Engineer I</td>
+              <td>Absage</td>
+            </tr>
+            <tr>
+              <td>25.10.2022</td>
+              <td>Swisscom</td>
+
+              <td>Software Engineer II</td>
+              <td>Akzeptiert</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <button class="PI-button" id="knopf2" onclick="readMore2()">
+        Zeig Form
+      </button>
+
+      <!-- <div id="formVisibility" style="display: none"> -->
+
+      <div id="formVisibility">
+        <div class="form-style">
+          <form>
+            <ul>
+              <li>
+                <label for="username"> Wählen Sie den Name:</label>
+                <br />
+                <input type="text" name="username" id="username" />
+              </li>
+              <li>
+                <label for="email"> Schreiben Sie bitte Email Adresse:</label>
+                <br />
+                <input type="text" name="email" id="email" />
+              </li>
+              <li>
+                <select class="choose-national" name="user_profile_color_1">
+                  <option disabled>Wählen Sie ihr Nationalität:</option>
+                  <option value="1">Schweizer</option>
+                  <option value="2">Deutscher</option>
+                  <option value="3">Ukrainer</option>
+                  <option value="4">Türke</option>
+                  <option value="5">Russisch</option>
+                  <option value="6">Polen</option>
+                </select>
+              </li>
+              <li>
+                <label for="password"> Wählen Sie die Parole:</label>
+                <br />
+                <input type="password" name="password" id="password" />
+              </li>
+            </ul>
+
+            <button class="button-form" type="button">OKAY</button>
+          </form>
+        </div>
+      </div>
+
       <!-- 
       <iframe
         width="560"
@@ -176,5 +193,7 @@
     </div>
 
     <!-- <script src="./ggg.js" type="module"></script> -->
+
+    <script src="./test.js"></script>
   </body>
 </html>
